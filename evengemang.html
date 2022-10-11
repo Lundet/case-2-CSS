@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evengemang</title>
+</head>
+
+<body>
+    <div> Meny </div>
+    <header>
+        <nav id="menu">
+            <a href="index.html">Om mig</a> | <a href="landskap.html">Landskap</a> | <a
+                href="evengemang.html">Evengemang</a> | <a href="galleri.html">Galleri</a>
+        </nav>
+    </header>
+    <h1>Evengemang</h1> <img src="images/leagueoflegends.jpg" alt="League of legends bild">
+    <p>
+        <label for="accept">
+            <input type="checkbox" name="accept" id="accept" checked disabled>
+            Härmed godkänner jag att Hannes är bäst på league of legends(du har inget annat val)
+        </label>
+    </p>
+    <h2>Turnering i league of legends</h2>
+    <form action="evengemang.html" method="get">
+
+        <!-- elementet input har olika attribut -->
+        <fieldset>
+            <p>
+                <label for="firstname">Ditt fullständiga namn(Du blir captain)</label><br>
+                <input type="text" name="firstname" id="firstname" placeholder="Ange namn" required>
+            </p>
+        </fieldset>
+        <fieldset>
+
+            <legend>Ange om söker som ett lag eller om du söker som solo</legend>
+
+            <label>
+                <input type="radio" name="lag" id="lag5" value="5" required>Ansöker som lag(5 Pers)
+            </label>
+            <label>
+                <input type="radio" name="lag" id="lag4" value="4">Ansöker som lag(4 Pers)
+            </label>
+            <label>
+                <input type="radio" name="lag" id="lag3" value="3">Ansöker som lag(3 Pers)
+            </label>
+            <label>
+                <input type="radio" name="lag" id="lag2" value="2">Ansöker som lag(2 Pers)
+            </label>
+            <label>
+                <input type="radio" name="lag" id="solo" value="solo">Ansöker solo
+            </label>
+
+        </fieldset>
+        <fieldset>
+            <legend>Fyll i ditt/eran ingame namn</legend>
+            Spelare 1<input type="text" name="name" id="name1" required><br>
+            Spelare 2<input type="text" name="name" id="name2"><br>
+            Spelare 3<input type="text" name="name" id="name3"><br>
+            Spelare 4<input type="text" name="name" id="name4"><br>
+            Spelare 5<input type="text" name="name" id="name5"><br>
+
+        </fieldset>
+        <fieldset>
+            <legend>Något övrigt du vill informera om?</legend>
+            <label for="övrigt"></label>
+            <textarea name="övrigt" id="övrigt" cols="30" rows="10"></textarea>
+        </fieldset>
+        <input type="submit" value="Skicka">
+    </form>
+
+</body>
+
+</html>
