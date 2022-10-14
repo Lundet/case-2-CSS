@@ -5,30 +5,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css/reset.css">
+    <link rel="stylesheet" href="styles.css/styles.css">
     <title>Landskap</title>
 </head>
 
 <body>
-    <div> Meny </div>
     <header>
         <nav id="menu">
-            <a href="index.html">Om mig</a> | <a href="landskap.html">Landskap</a> | <a
-                href="evengemang.html">Evengemang</a> | <a href="galleri.html">Galleri</a>
+            <div class="meny">
+                <h2>Meny</h2>
+                <ul class="flex-parent">
+                    <li class="flex1">
+                        <a href="index.html">Om mig</a>
+                        <ul>
+                            <li> <a href="#"></a>vem är jag?</li>
+                            <li> <a href="#"></a>Intressen</li>
+                        </ul>
+                    </li>
+                    <li class="flex1">
+                        <a href="landskap.html">Landskap</a>
+                        <ul>
+                            <li><a href="landskap.html#Historia"></a> Historia</li>
+                            <li>Klimat</li>
+                            <li></li>
+                        </ul>
+
+                    </li>
+                    <li class="flex1">
+                        <a href="evengemang.html">Evengemang</a>
+                        <ul>
+                            <li>Info</li>
+                            <li>Anmälan</li>
+                        </ul>
+                    </li>
+                    <li class="flex1">
+                        <a href="galleri.html">Galleri</a>
+                        <ul>
+                            <li>Youtube videos</li>
+                            <li>Mina clips</li>
+                            <li>Mina remixes</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
 
     <h1>Landskap</h1>
     <h2>Om Helsingborg</h2>
-    
-        <img width="400" height="315" src="https://madelineraeaway.com/wp-content/uploads/2022/05/IMG_6552.jpg"
-            alt="Bild på helsingborg">
-        <iframe width="400" height="315"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71330.59668908542!2d12.662605237716368!3d56.03458381393795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46522d7a50a22925%3A0x4019078290e7a90!2sHelsingborg!5e0!3m2!1sen!2sse!4v1662070084722!5m2!1sen!2sse"
-            style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <img width="400" height="315" src="https://madelineraeaway.com/wp-content/uploads/2022/05/IMG_6552.jpg"
+        alt="Bild på helsingborg">
+    <iframe width="400" height="315"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71330.59668908542!2d12.662605237716368!3d56.03458381393795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46522d7a50a22925%3A0x4019078290e7a90!2sHelsingborg!5e0!3m2!1sen!2sse!4v1662070084722!5m2!1sen!2sse"
+        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
     <article>
-        <h3>Historia</h3>
+        <h3 id="Historia">Historia</h3>
         <p>Helsingborgs historia sträcker sig tillbaka till vikingatiden. Den viktiga plats där Öresund är som smalast
             har gett staden en strategisk position under lång tid. På medeltiden var staden och dess slott ett av
             Nordens mäktigaste fästen och därmed inblandad i mycket av den tidens maktspel. Under århundradena har
