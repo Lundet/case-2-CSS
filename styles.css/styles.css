@@ -16,6 +16,12 @@ p {
     text-align: justify;
 }
 
+.button {
+    
+    color: blue;
+    text-align: center;
+}
+
 .intressen {
     background-color: lightblue;
     text-align: center;
@@ -44,17 +50,17 @@ p {
     justify-content: center;
     background-color: lightblue;
 }
-.flexbox-item{
-    
-    margin: auto
+
+.flexbox-item {
+    flex: 1;
+    margin-right: 20px;
 }
+
 .flexbox-container2 {
     display: flex;
-    justify-content: center;
-    background-color: lightblue;
-    text-align: left   
-    
+    text-align: center
 }
+
 .knappar {
     justify-content: center;
     display: flex;
