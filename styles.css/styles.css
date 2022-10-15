@@ -52,15 +52,13 @@ p {
     display: flex;
     justify-content: center;
     background-color: lightblue;
-    text-align: left
-    
+    text-align: left   
     
 }
-
 .knappar {
     justify-content: center;
     display: flex;
-
+    margin-top: 30px;
 }
 
 .knapp {
