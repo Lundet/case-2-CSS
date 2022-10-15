@@ -1,54 +1,94 @@
-h1{
+h1 {
     font-size: 60px;
 }
+
 h2 {
     font-size: 50px;
-color: black    ;
+    color: black;
 }
-h3{
+
+h3 {
     font-size: 30px;
     color: black;
 }
 
+p {
+    text-align: justify;
+}
 
-.meny{
-    max-width: 1400px;
+.intressen {
+    background-color: lightblue;
+    text-align: center;
+    padding: 2rem;
+}
+
+.meny {
     height: 170px;
     text-align: center;
+    margin: auto;
 }
 
-.flex-parent {
-    margin: 1rem;
+.flexbox-img {
+    margin-right: 3rem;
+
+}
+
+.flexbox-text {
+    width: 200px;
+    text-align: left;
+}
+
+.flexbox-container {
+    padding: 4rem;
     display: flex;
-    text-align: center;
+    justify-content: center;
+    background-color: lightblue;
+}
+.flexbox-item{
+    
+    margin: auto
+}
+.flexbox-container2 {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    text-align: left
+    
+    
 }
 
-.flex1 {
+.knappar {
+    justify-content: center;
+    display: flex;
+
+}
+
+.knapp {
     flex: 1;
 }
 
-.center {
-    justify-content: center;
-}
-#menu li:hover ul{
+#menu li:hover ul {
     display: block;
-  
+
 }
 
-#menu ul ul{
+#menu ul ul {
     display: none;
 }
-#menu li:hover{
+
+#menu li:hover {
     color: white;
     cursor: pointer;
 }
-#menu h2{
+
+#menu h2 {
     color: lightblue;
 }
-#menu{
+
+#menu {
     background-color: cornflowerblue;
     padding: 2rem;
     font-size: 25px;
     color: lightblue;
+    text-align: center;
 }
-
