@@ -15,7 +15,10 @@ h3 {
 p {
     text-align: justify;
 }
-
+.active {
+    color: white;
+       
+}
 .button {
     
     color: blue;
@@ -51,16 +54,22 @@ p {
     background-color: lightblue;
 }
 
-.flexbox-item {
-    flex: 1;
+.flexbox-item {    
     margin-right: 20px;
 }
 
 .flexbox-container2 {
+    padding: 1rem;
+    justify-content: center;
+    margin-top: 30px;
     display: flex;
     text-align: center
 }
-
+.landskap{
+    background-color: lightblue;
+    text-align: center;
+    padding: 4rem;
+}
 .knappar {
     justify-content: center;
     display: flex;
@@ -71,25 +80,25 @@ p {
     flex: 1;
 }
 
-#menu li:hover ul {
+.menu li:hover ul {
     display: block;
 
 }
 
-#menu ul ul {
+.menu ul ul {
     display: none;
 }
 
-#menu li:hover {
+.menu li:hover {
     color: white;
     cursor: pointer;
 }
 
-#menu h2 {
+.menu h2 {
     color: lightblue;
 }
 
-#menu {
+.menu {
     background-color: cornflowerblue;
     padding: 2rem;
     font-size: 25px;

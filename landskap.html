@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <nav id="menu">
+        <nav class="menu">
             <div class="meny">
                 <h2>Meny</h2>
                 <ul class="knappar">
@@ -24,7 +24,7 @@
                         </ul>
                     </li>
                     <li class="knapp">
-                        <a href="landskap.html">Landskap</a>
+                        <a class="active" href="landskap.html">Landskap</a>
                         <ul>
                             <li><a href="landskap.html#Historia"></a> Historia</li>
                             <li>Klimat</li>
@@ -51,16 +51,18 @@
             </div>
         </nav>
     </header>
-
-    <h1>Landskap</h1>
-    <h2>Om Helsingborg</h2>
-
-    <img width="400" height="315" src="https://madelineraeaway.com/wp-content/uploads/2022/05/IMG_6552.jpg"
-        alt="Bild på helsingborg">
-    <iframe width="400" height="315"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71330.59668908542!2d12.662605237716368!3d56.03458381393795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46522d7a50a22925%3A0x4019078290e7a90!2sHelsingborg!5e0!3m2!1sen!2sse!4v1662070084722!5m2!1sen!2sse"
-        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+    <div class="landskap">
+        <h1>Landskap</h1>
+        <h2>Om Helsingborg</h2>
+        <div class="flexbox-container2">
+            
+            <img class="flexbox-img" width="400" height="315" src="https://madelineraeaway.com/wp-content/uploads/2022/05/IMG_6552.jpg"
+                alt="Bild på helsingborg">
+            <iframe class="flexbox-img" width="400" height="315"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71330.59668908542!2d12.662605237716368!3d56.03458381393795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46522d7a50a22925%3A0x4019078290e7a90!2sHelsingborg!5e0!3m2!1sen!2sse!4v1662070084722!5m2!1sen!2sse"
+                ></iframe>
+        </div>
+    </div>
     <article>
         <h3 id="Historia">Historia</h3>
         <p>Helsingborgs historia sträcker sig tillbaka till vikingatiden. Den viktiga plats där Öresund är som smalast
