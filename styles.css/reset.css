@@ -17,8 +17,11 @@
     cursor: revert;
   }
   /* Remove list styles (bullets/numbers) */
-  ol, ul, menu {
+  ol, ul, menu{
     list-style: none;
+  }
+  table {
+    border-collapse: collapse;
   }
   /* For images to not be able to exceed their container */
   img {
