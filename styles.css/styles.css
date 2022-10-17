@@ -108,6 +108,24 @@ p {
     flex: 1;
     
 }
+.mina-clips{
+    background-color: lightblue;
+    text-align: center;
+}
+.video{
+    margin: auto;
+}
+.video-container{
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+}
+.youtube-videos{
+    background-color: lightblue;
+    padding: 2rem;
+    justify-content: center;
+    text-align: center;
+}
 
 .flexbox-container2 {
     padding: 1rem;
