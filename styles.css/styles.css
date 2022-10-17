@@ -11,10 +11,16 @@ h3 {
     font-size: 30px;
     color: black;
 }
-
+table,th,td {
+    padding: 1rem;
+    color:  black solid;
+    background-color:#638C99;
+    border: 1px black solid;
+}
 p {
     text-align: justify;
 }
+
 .active {
     color: white;
        
@@ -29,8 +35,25 @@ p {
     background-color: lightblue;
     text-align: center;
     padding: 2rem;
+    justify-content: center;
 }
-
+.table-item{
+    padding: 5rem;
+    flex: 1;
+    display: block;
+    
+}
+.historiska-datum{
+    padding-bottom: 5rem;
+    flex:1;
+}
+.klimat{
+    flex: 1;
+}
+.article-item{
+    padding-top: 5rem;
+    flex: 1;
+}
 .meny {
     height: 170px;
     text-align: center;
@@ -41,7 +64,6 @@ p {
     margin-right: 3rem;
 
 }
-
 .flexbox-text {
     width: 200px;
     text-align: left;
@@ -53,9 +75,28 @@ p {
     justify-content: center;
     background-color: lightblue;
 }
-
+.article-container p{
+    
+    margin-bottom: 50px;
+}
+.article-container{
+    display: flex;
+    background-color: lightblue
+}
+.article-container h4{
+    font-size: 25px;
+    color: black;
+    font-style: italic;
+}
+.historia{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display: flex ;
+}
 .flexbox-item {    
     margin-right: 20px;
+    flex: 1;
+    
 }
 
 .flexbox-container2 {
