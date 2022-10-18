@@ -40,7 +40,8 @@
                                 <li><a href="evengemang.html#Anmällan">Anmällan</a></li>
                             </ul>
                         <li>
-                    </ul><ul class="knapp">
+                    </ul>
+                    <ul class="knapp">
                         <li><a href="galleri.html">Galleri</a>
                             <ul>
                                 <li><a href="galleri.html#Youtube-videos">Youtube videos</a></li>
@@ -48,66 +49,44 @@
                                 <li><a href="galleri.html#Remixes">Mina remixes</a></li>
                             </ul>
                         <li>
-                    </ul>                   
+                    </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <h1>Evengemang</h1> <img src="images/leagueoflegends.jpg" alt="League of legends bild">
-    <p>
-        <label for="accept">
-            <input type="checkbox" name="accept" id="accept" checked disabled>
-            Härmed godkänner jag att Hannes är bäst på league of legends(du har inget annat val)
-        </label>
-    </p>
-    <h2 id="Info-turnering">Turnering i league of legends</h2>
-    <form id="Anmällan" action="evengemang.html" method="get">
+    <div class="evengemang">
+        <div class="rubrik-img">
+        <h1>Evengemang</h1> <img src="images/leagueoflegends.jpg" alt="League of legends bild">
+       
+        </div>
 
-        <!-- elementet input har olika attribut -->
-        <fieldset>
-            <p>
-                <label for="firstname">Ditt fullständiga namn(Du blir captain)</label><br>
-                <input type="text" name="firstname" id="firstname" placeholder="Ange namn" required>
-            </p>
-        </fieldset>
-        <fieldset>
+        <form class="anmällan" id="Anmällan" action="evengemang.html" method="get">
+            <h2 id="Info-turnering">Turnering i league of legends</h2>
+            <!-- elementet input har olika attribut -->
+            <fieldset>
+                <legend>
+                    <label for="firstname">Ditt fullständiga namn(Du blir captain)</label><br>
+                    <input type="text" name="firstname" id="firstname" placeholder="Ange namn" required>
+                </legend>
+            </fieldset>
 
-            <legend>Ange om söker som ett lag eller om du söker som solo</legend>
+            <fieldset>
+                <legend>Fyll i ditt/eran ingame namn</legend>
+                Spelare 1<input type="text" name="name" id="name1" required><br>
+                Spelare 2<input type="text" name="name" id="name2"><br>
+                Spelare 3<input type="text" name="name" id="name3"><br>
+                Spelare 4<input type="text" name="name" id="name4"><br>
+                Spelare 5<input type="text" name="name" id="name5"><br>
 
-            <label>
-                <input type="radio" name="lag" id="lag5" value="5" required>Ansöker som lag(5 Pers)
-            </label>
-            <label>
-                <input type="radio" name="lag" id="lag4" value="4">Ansöker som lag(4 Pers)
-            </label>
-            <label>
-                <input type="radio" name="lag" id="lag3" value="3">Ansöker som lag(3 Pers)
-            </label>
-            <label>
-                <input type="radio" name="lag" id="lag2" value="2">Ansöker som lag(2 Pers)
-            </label>
-            <label>
-                <input type="radio" name="lag" id="solo" value="solo">Ansöker solo
-            </label>
-
-        </fieldset>
-        <fieldset>
-            <legend>Fyll i ditt/eran ingame namn</legend>
-            Spelare 1<input type="text" name="name" id="name1" required><br>
-            Spelare 2<input type="text" name="name" id="name2"><br>
-            Spelare 3<input type="text" name="name" id="name3"><br>
-            Spelare 4<input type="text" name="name" id="name4"><br>
-            Spelare 5<input type="text" name="name" id="name5"><br>
-
-        </fieldset>
-        <fieldset>
-            <legend>Något övrigt du vill informera om?</legend>
-            <label for="övrigt"></label>
-            <textarea name="övrigt" id="övrigt" cols="30" rows="10"></textarea>
-        </fieldset>
-        <input type="submit" value="Skicka">
-    </form>
-
+            </fieldset>
+            <fieldset>
+                <legend>Något övrigt du vill informera om?</legend>
+                <label for="övrigt"></label>
+                <textarea name="övrigt" id="övrigt" cols="30" rows="10"></textarea>
+            </fieldset>
+            <input type="submit" value="Skicka">
+        </form>
+    </div>
 </body>
 
 </html>

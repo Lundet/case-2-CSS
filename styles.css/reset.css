@@ -20,9 +20,7 @@
   ol, ul, menu{
     list-style: none;
   }
-  table {
-    border-collapse: collapse;
-  }
+
   /* For images to not be able to exceed their container */
   img {
     max-width: 100%;

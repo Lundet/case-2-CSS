@@ -15,8 +15,10 @@ h3 {
 fieldset,input,textarea{
     border: 1px solid black;  
 }
-
-
+iframe
+{
+    border: none;
+}
 input,textarea{
     background-color:white
 
@@ -108,12 +110,25 @@ p {
     flex: 1;
     
 }
+.rubrik-img{
+    justify-content: center;
+    text-align: center;
+}
+.evengemang{
+    background-color: lightblue;
+}
+.anmällan{
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+    background-color: lightblue;
+}
 .mina-clips{
     background-color: lightblue;
     text-align: center;
 }
 .video{
-    margin: auto;
+    margin: 2rem;
 }
 .video-container{
     display: flex;
