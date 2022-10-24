@@ -17,11 +17,15 @@ fieldset,input,textarea{
 }
 iframe
 {
+    border-radius: 10px;
     border: none;
 }
 input,textarea{
     background-color:white
 
+}
+img{
+    border-radius: 10px;
 }
 table,th,td {
     padding: 1rem;
@@ -29,16 +33,28 @@ table,th,td {
     background-color:#638C99;
     border: 2px solid black;
 }
+footer {
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    color: grey;
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+}
 p {
     text-align: justify;
 }
-
+.footer-del{
+    margin: 3rem;
+    flex: 1;   
+    justify-content: center;
+}
 .active {
     color: white;
        
 }
-.button {
-    
+.button {   
     color: blue;
     text-align: center;
 }
